@@ -28,13 +28,96 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+# ============================
+# .NET / C# / ASP.NET Core
+# ============================
+
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+[Aa]rtifacts/
+[Bb]uild/
+
+# Visual Studio user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider (JetBrains)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Entity Framework
+*.mdf
+*.ldf
+Migrations/
+
+# ASP.NET specific
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+
+# User secrets
+secrets.json
+
+# Publish output
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Logs
+*.log
+*.tlog
+
+# OS junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider plugin caches
+*.sln.iml
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Other
+node_modules/
+
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
-# NuGet Packages
-*.nupkg
-# NuGet Symbol Packages
-*.snupkg
 
 # Others
 ~$*
@@ -52,3 +135,6 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+
+
