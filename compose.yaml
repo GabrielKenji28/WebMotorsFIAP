@@ -1,0 +1,6 @@
+﻿services:
+  webmotors:
+    image: webmotors
+    build:
+      context: .
+      dockerfile: WebMotors/Dockerfile

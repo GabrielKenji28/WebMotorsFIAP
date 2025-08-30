@@ -1,0 +1,105 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.WebMotors.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# ============================
+# .NET / C# / ASP.NET Core
+# ============================
+
+# Build results
+bin/
+obj/
+out/
+Debug/
+Release/
+x64/
+x86/
+[Aa]rtifacts/
+[Bb]uild/
+[Ll]ogs/
+
+# Visual Studio user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider (JetBrains)
+.idea/
+*.iml
+
+# VS Code
+.vscode/
+.history/
+*.code-workspace
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+*.nuget.props
+*.nuget.targets
+
+# Entity Framework
+*.mdf
+*.ldf
+Migrations/
+
+# ASP.NET specific
+appsettings.*.json
+appsettings.Development.json
+appsettings.Local.json
+
+# User secrets
+secrets.json
+
+# Publish output
+publish/
+wwwroot/dist/
+wwwroot/node_modules/
+
+# Logs
+*.log
+*.tlog
+
+# OS junk files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Resharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+# Rider plugin caches
+.idea/
+*.sln.iml
+
+# Test results
+TestResult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Other
+node_modules/
+
