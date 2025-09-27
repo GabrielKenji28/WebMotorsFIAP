@@ -64,6 +64,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 {
     options.UseSqlServer(connectionString, b => b.MigrationsAssembly("Infra"));
 });
+
 builder.Services.AddAuthorization(options =>
 {
     options.AddPolicy("BuyVehicle", policy => policy.Requirements.Add(new 
