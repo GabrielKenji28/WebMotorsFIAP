@@ -1,0 +1,32 @@
+name: Docker Build on Merge
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+    types: [opened, synchronize, reopened]
+
+jobs:
+
+  build_image:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '9.0.x' # Garante o SDK .NET 9
+          
+      - name: Build Docker Image
+        
+        run: |
+          echo "Starting Docker build..."
+          # Assume que o Dockerfile está na raiz da solução (WebMotors/)
+          docker build -t webmotors-api-image .
+          echo "Docker build finished successfully."
