@@ -31,4 +31,4 @@ jobs:
       with:
         context: . # Path to your Dockerfile (current directory in this case)
         push: true
-        tags: ${{ vars.DOCKERHUB_USERNAME }}/webmotors-api:latest # Replace with your Docker Hub username and image name
+        tags: ${{ vars.DOCKERHUB_USERNAME }}/webmotors-api:1.1 # Replace with your Docker Hub username and image name
